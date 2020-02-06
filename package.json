@@ -1,0 +1,14 @@
+{
+  "name": "boilerplate-electron-react",
+  "private": true,
+  "scripts": {
+    "electron-wrapper-on-electronforge:start": "cd packages/electron-wrapper-on-electronforge && yarn start"
+  },
+  "workspaces": [
+    "packages/*"
+  ],
+  "devDependencies": {
+    "lerna": "^3.16.4"
+  }
+}
+
